@@ -173,4 +173,3 @@ To contribute or commercialize, contact the author.**
 
 ---
 
-Would you like this exported as a polished `.PDF`, `README.md`, or added to a public-facing GitHub starter repo?
