@@ -168,7 +168,7 @@ Agent-based containers, flow generation overlays, parallel forks, external schem
 * **Docs:** `janus.seed`, `prompt_grammar.md`, `janus.runbook.txt`
 
 **Janus is free to explore. Licensed only for symbolic use.
-To contribute or commercialize, contact the author.**
+To contribute or commercialize, contact the author (me).**
 
 ---
 
