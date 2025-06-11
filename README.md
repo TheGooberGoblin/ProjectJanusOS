@@ -11,6 +11,8 @@ Here is a professionally structured public-facing summary of **Project Janus** s
 **Version:** v0.4-beta (Scaffolding Complete)
 **Author:** Axov_ or TheGooberGoblin ... depends on whos asking & OpenAI's GPT 4o
 
+NotebookLLM Deep-Dive Explanation: https://notebooklm.google.com/notebook/8664b005-8e1a-42cf-a7d5-8f10532e22da/audio
+
 ---
 
 ## 🔍 What Is Janus?
