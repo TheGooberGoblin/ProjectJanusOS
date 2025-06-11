@@ -10,7 +10,6 @@ Here is a professionally structured public-facing summary of **Project Janus** s
 
 **Version:** v0.4-beta (Scaffolding Complete)
 **Author:** Axov_ or TheGooberGoblin... depends on whos asking
-**Website:** *\[Add GitHub or portfolio link]*
 
 ---
 
