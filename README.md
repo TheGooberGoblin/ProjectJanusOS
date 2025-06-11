@@ -9,7 +9,7 @@ Here is a professionally structured public-facing summary of **Project Janus** s
 ## A Deterministic Symbolic Operating System for Large Language Models
 
 **Version:** v0.4-beta (Scaffolding Complete)
-**Author:** Axov_ or TheGooberGoblin... depends on whos asking
+**Author:** Axov_ or TheGooberGoblin ... depends on whos asking & OpenAI's GPT 4o
 
 ---
 
