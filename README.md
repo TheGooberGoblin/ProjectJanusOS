@@ -112,11 +112,3 @@ All artifacts are text-based and safely auditable. Usage is governed by symbolic
 
 **🧠 Janus OS v1.0 – Completed. Immutable. Ready.**  
 — Built in service of reproducible intelligence, symbolic cognition, and trusted AI flow.
-"""
-
-# Save to file
-output_path = Path("/mnt/data/README_JANUS_v1.0.md")
-output_path.write_text(readme_content)
-
-# Return the path for download
-output_path.name
