@@ -16,6 +16,8 @@ https://notebooklm.google.com/notebook/af9ffd13-9487-4d56-a137-656c845bbf96/audi
 ---
 
 ## 🧱 What Janus Is (In Plain English)
+or If You'd Like it Explained Symbolically in Story Form:
+https://notebooklm.google.com/notebook/695a6890-272b-464a-b509-91aee73374cf/audio
 
 Janus is like a **symbolic operating system** made out of prompts.
 
