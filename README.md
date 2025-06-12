@@ -9,6 +9,9 @@ It’s a **prompt-based virtual machine**—built entirely from structured langu
 There’s no code, no APIs, no plugins. Just well-structured text.
 
 ---
+NotebookLLM Deepdive
+https://notebooklm.google.com/notebook/af9ffd13-9487-4d56-a137-656c845bbf96/audio
+---
 
 ## 🧱 What Janus Is (In Plain English)
 
