@@ -1,6 +1,6 @@
 from pathlib import Path
 
-# Define the content of README_JANUS_v1.0.md
+# Project Janus | Version 1.0 | ReadMe
 readme_content = """# 🧠 JANUS OS v1.0 – Symbolic Cognitive OS (Final Release)
 
 > **Codename:** `Janus v1.0`  
