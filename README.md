@@ -1,5 +1,6 @@
 # 🚀 Janus | Version 1.0 Release | Offline Prompt-Based Operating System for LLMs
 By Poesyne Labs in collaboration with OpenAi's GPT-4o
+https://x.com/AndromedaPsych
 
 Ever wish you could run an AI system that’s **fully visible**, doesn’t need the cloud, and works across models like **GPT-4o, Claude, Gemini, or DeepSeek**?
 
