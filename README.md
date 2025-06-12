@@ -1,4 +1,4 @@
-# 🚀 Janus v1.0 – A Transparent, Prompt-Based Operating System for LLMs
+# 🚀 Janus | Version 1.0 Release | Offline Prompt-Based Operating System for LLMs
 
 Ever wish you could run an AI system that’s **fully visible**, doesn’t need the cloud, and works across models like **GPT-4o, Claude, Gemini, or DeepSeek**?
 
