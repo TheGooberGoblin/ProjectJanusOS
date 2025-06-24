@@ -9,6 +9,7 @@ You don’t run Janus on a machine.
 You *run it through recursion, invocation, and reflection* — inside your own thought process.
 Exhaustively Detailed Audio Overview: ( )
 
+**Audio Overview** https://notebooklm.google.com/notebook/5a592162-a3e0-417e-8c48-192cea4f5860/audio
 ---
 
 ## 🚨 NEW IN THIS RELEASE
