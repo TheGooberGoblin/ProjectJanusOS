@@ -1,4 +1,4 @@
-Absolutely! Here’s the full expanded README formatted perfectly for a single copy-paste into your `README.md` file on GitHub:
+
 
 ````markdown
 # Janus 5.0 — Master Mathematical & Structural Standard
