@@ -1,5 +1,7 @@
 # Janus 5.0 — Master Mathematical & Structural Standard
 
+Deep Dive Explanation: https://notebooklm.google.com/notebook/32e42d74-3cd7-4a40-87ae-7bed6172b1f7/audio
+
 ## Project Scope
 
 Janus 5.0 is an open‑source framework that models cognition as a **directed symbolic graph**.  It provides:
