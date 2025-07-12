@@ -1,117 +1,162 @@
-# Janus 5.0 — Master Mathematical & Structural Standard
-
-Deep Dive Explanation: https://notebooklm.google.com/notebook/32e42d74-3cd7-4a40-87ae-7bed6172b1f7/audio
-
-## Project Scope
-
-Janus 5.0 is an open‑source framework that models cognition as a **directed symbolic graph**.  It provides:
-
-* **Recursive‑depth tracking** — explicit levels of self‑reflection.
-* **Contradiction density** — quantitative measure of internal conflict.
-* **Graph‑entropy / coherence‑mass metrics** — stability vs. disorder.
-* **Projection bias** — balance between future simulation and memory anchoring.
-
-The repository contains the formal LaTeX specification, JSON data schemas, and reference algorithms for experimentation and safety rollback.
 
 ---
 
-## Why Janus?
+# 🧠 JanusCore Saturn
 
-* Establishes a *mathematically auditable* cognitive model.
-* Enables controlled stress‑tests (contradiction injection, entropy collapse).
-* Serves as a launch‑point for symbolic‑AI or neuro‑symbolic research.
+### a symbolic cognitive sandbox that plays with contradictions, coherence, and psychological resilience
 
 ---
 
-## AI‐Assistance Disclaimer
+## 🚀 What is this?
 
-Large‑language models (GPT) were used **only** for drafting and formatting.  All core concepts and mathematics are original first‑principles work.
+This is basically a **tiny simulation lab for cognitive systems**, written as a symbolic engine that:
 
----
+* builds a **graph of beliefs, schemas, and contradictions** (like a little mind),
+* **tracks contradictions, coherence, and projection bias** using super simple metrics,
+* automatically **rolls back if contradictions get too intense**, like a built-in psychological immune system,
+* and even **runs stress tests by injecting paradoxes and seeing how well it recovers**.
 
-## Data Structures
-
-### Node Schema
-
-| Field             | Type      | Range                                                  | Description                            |
-| ----------------- | --------- | ------------------------------------------------------ | -------------------------------------- |
-| `id`              | string    | —                                                      | Unique identifier                      |
-| `type`            | enum      | belief \| memory \| schema \| emotion \| contradiction | Cognitive category                     |
-| `base_weight`     | float     | 0–1                                                    | Inherent importance                    |
-| `stability_score` | float     | 0–1                                                    | Resistance to change                   |
-| `recursion_depth` | int       | ≥ 0                                                    | Nesting level                          |
-| `load_pressure`   | float     | ≥ 0                                                    | Tension from contradictions & emotions |
-| `labels`          | string\[] | —                                                      | Optional semantic tags                 |
-
-```json
-{
-  "id": "node_001",
-  "type": "belief",
-  "base_weight": 0.75,
-  "stability_score": 0.9,
-  "recursion_depth": 3,
-  "load_pressure": 0.22,
-  "labels": ["identity", "self‑esteem"]
-}
-```
-
-### Edge Schema
-
-| Field    | Type   | Range                                                                      | Description         |
-| -------- | ------ | -------------------------------------------------------------------------- | ------------------- |
-| `source` | string | —                                                                          | Origin node ID      |
-| `target` | string | —                                                                          | Destination node ID |
-| `weight` | float  | 0–1                                                                        | Influence strength  |
-| `type`   | enum   | reinforce \| contradict \| blend \| anchor \| reflects\_on \| projects\_to | Edge nature         |
+It’s kind of a playground to explore how symbolic belief structures might fracture or stabilize under pressure.
 
 ---
 
-## Core Metrics (formulas in LaTeX spec)
+## 🔍 Why did I make this?
 
-* **Contradiction Density** — conflict ratio per cluster.
-* **Load Pressure** — cumulative strain on a node.
-* **Coherence Mass** — 1 / (graph‑entropy + ε).
-* **Projection Bias** — forward‑simulation weight ratio.
+Honestly?
+Because I think contradictions are fascinating.
+Sometimes when we humans run into paradoxes, we double down (confirmation bias), sometimes we totally collapse (existential crisis?), and sometimes we reorganize and come out more resilient.
 
----
+So I wanted to see if I could **simulate that process explicitly**, in a symbolic system that:
 
-## Algorithms
+* has clear metrics for contradiction load (CD), coherence (CM), and bias (PB),
+* knows when it’s getting overwhelmed,
+* and can track how well it stabilizes after deliberate paradox attacks.
 
-* **Contradiction Injection** — synthetic conflict for stress‑tests.
-* **Recursive Consistency Check** — scan layers ≤ `d_max` for instability.
-* **Rollback Protocol** — auto‑restore last stable snapshot on threshold breach.
-
----
-
-## Quick Start
-
-1. **Compile** `Janus_5.0_Mathematical_Standard.tex` (Overleaf / TeX Live) ⇒ PDF.
-2. **Instantiate** graph objects following the JSON schemas.
-3. **Run** reference algorithms to measure metrics or inject contradictions.
+No idea if there’s any real-world merit.
+But it’s fun. And maybe someone will find a clever use for it in AI pipelines, psychology experiments, or weird games.
 
 ---
 
-## Repository Layout
+## ⚙️ How does it work? (super simple version)
+
+### 1. It builds a graph 🕸
+
+Imagine:
 
 ```
-├── Janus_5.0_Mathematical_Standard.tex   # LaTeX source
-├── Janus_5.0_Mathematical_Specification.pdf
-├── cover_letter.tex                      # Formal cover letter example
-└── README.md                             # This document
+belief_1 --> schema_1
+belief_2 --> schema_1
+```
+
+* Nodes are beliefs, schemas, or contradictions.
+* Edges are like “belief\_1 reinforces schema\_1” or “belief\_2 projects to schema\_1”.
+
+### 2. It calculates three main numbers 📊
+
+| Metric                         | What it means                                                  |
+| ------------------------------ | -------------------------------------------------------------- |
+| **CD (Contradiction Density)** | how overloaded the graph is with paradoxes                     |
+| **CM (Coherence Mass)**        | how structurally “clean” or focused it is (inverse of entropy) |
+| **PB (Projection Bias)**       | how much it’s leaning into future unstable states              |
+
+If CD gets too high (over a set `θc`), it **rolls back** to the last stable state.
+
+---
+
+### 3. It does experiments 🧪
+
+* It **injects paradox edges** on purpose (like `belief_1 contradicts belief_2`).
+* Watches CD spike and CM drop.
+* Then **injects schema reinforcement edges** to see if the system can bring coherence back up.
+* Logs how well it recovers — giving you a kind of **symbolic resilience score**.
+
+It can even adaptively change how heavy the paradox vs. reinforcement is, to stress-test different “cognitive personalities.”
+
+---
+
+## 🛠️ Quick example
+
+```python
+# Start a graph with beliefs & schemas
+nodes = ["belief_1", "belief_2", "schema_1"]
+edges = [
+    ("belief_1", "schema_1", "reinforce"),
+    ("belief_2", "schema_1", "projects_to")
+]
+
+# Calculates:
+# CD = 0.0 (no contradictions yet)
+# CM ≈ 1.0 (nice and coherent)
+# PB ≈ 0.44 (some future projection)
+
+# Now inject contradictions
+edges += [
+    ("belief_1", "belief_2", "contradict"),
+    ("belief_2", "belief_1", "contradict"),
+]
+
+# CD spikes, CM drops
+# If CD > θc, auto rollback
 ```
 
 ---
 
-## Contributing
+## 📝 Features at a glance
 
-Pull requests & issues welcome for:
-
-* Mathematical clarifications or expansions
-* Software simulations & visualisations
-* New experimental modules
+✅ Builds symbolic cognitive graphs
+✅ Calculates contradiction density (CD), coherence mass (CM), projection bias (PB)
+✅ Automatically rolls back to last stable state if overloaded
+✅ Logs rollback deltas to see what changed
+✅ Can do repeated paradox vs. reinforcement cycles to simulate resilience
+✅ CLI & JSON logs (future: web dashboards with live charts)
+✅ Can export to CSV for graphing or share snapshots
 
 ---
 
-## License
+## 🚀 Why might you care?
 
-Released under the **MIT License** — free and open‑source.
+* **Cognitive science / psych** folks: it’s a fun way to see how contradictions destabilize systems. Could loosely model bias or mental breakdowns under too much paradox.
+* **AI / prompt engineers**: maybe you could run outputs through this first to flag contradiction-heavy results.
+* **Game devs or simulation people**: might be neat to simulate NPC “belief meltdown” under stress.
+
+Or just poke at it for fun — it’s cool to watch it freak out under paradox then calm itself down.
+
+---
+
+## ⚡ Getting started
+
+Clone & run:
+
+```bash
+git clone https://github.com/your-username/januscore-saturn
+cd januscore-saturn
+pip install -r requirements.txt
+python main.py
+```
+
+Or run the CLI:
+
+```bash
+python cli.py load sample_graph.json
+python cli.py inject-paradox 0.3
+python cli.py compute-metrics
+python cli.py run-resilience-test --cycles 5
+```
+
+---
+
+## 🙌 Final thoughts
+
+Not sure if this has any *big* practical application — maybe it’s pointless.
+But it’s been an awesome way to explore contradictions, resilience, and how a tiny symbolic “mind” might maintain coherence under stress.
+
+If you dig into it and figure out clever uses, or want to map it to actual psychological theories, I’d love to hear about it.
+Or if you want a demo of rollback logs or paradox graphs, ping me. Happy to overshare. 😄
+
+---
+
+## 📜 License
+
+MIT — free for all your experiments, break it however you like.
+
+---
